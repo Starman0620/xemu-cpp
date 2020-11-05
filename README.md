@@ -24,3 +24,5 @@ To run the emulator, type ``./xemu rom.bin``. If the ROM file you inputted is va
 ## ToDo
 * Implement x08
 * Find and fix any bugs
+* Implement the command interpreter
+* Add a GUI (this will be an optional build option)
