@@ -1,5 +1,5 @@
 # xemu-cpp
-xemu-cpp is an implementation of [xemu]([https://github.com/ParzivalWolfram/xemu](https://github.com/ParzivalWolfram/xemu)) by [Parzival](https://github.com/ParzivalWolfram), originally written in Python. The purpose of this project was to learn basic emulator development (I went into this with next to no prior knowledge) and to provide a more portable version of the existing emulator since there have been some issues running it on some platforms. 
+xemu-cpp is a C++ implementation of [xemu]([https://github.com/ParzivalWolfram/xemu](https://github.com/ParzivalWolfram/xemu)) by [Parzival](https://github.com/ParzivalWolfram), originally written in Python. It emulates [ccc814p](https://github.com/ccc814p)'s conceptual 4-bit CPU named "x04". The purpose of this project was to learn basic emulator development (I went into this with next to no prior knowledge) and to provide a more portable version of the existing emulator since there have been some issues running it on some platforms. 
 
 Any and all feedback for this project is welcome and encouraged as this *is* a learning project
 
@@ -20,3 +20,7 @@ Any and all feedback for this project is welcome and encouraged as this *is* a l
 
 ## Usage
 To run the emulator, type ``./xemu rom.bin``. If the ROM file you inputted is valid, it should prompt you to either give input or press enter to single step the CPU.
+
+## ToDo
+* Implement x08
+* Find and fix any bugs
